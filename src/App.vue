@@ -38,10 +38,10 @@
           <!-- Definition Block -->
           <v-col cols="12" md="6" class="pr-md-12">
             <v-card class="definition-card pa-8 mb-8" variant="outlined">
-              <div class="text-h4 text-md-h4 text-sm-h5 font-weight-bold" style="line-height: 1.4;">
+              <div class="text-h4 text-lg-h4 text-md-h5 text-sm-h5 font-weight-bold" style="line-height: 1.4;">
                 "PODS" stands for Pods Organizational Design System optimizing for higher organizational intelligence in service of solving complex problems at scale with adaptive, human-centric and modular org design.
               </div>
-              <div class="text-h6 text-md-h6 font-weight-regular mt-8" style="line-height: 1.4; opacity: 0.87;">
+              <div class="text-h6 text-lg-h6 text-md-subtitle-1 text-sm-subtitle-1 font-weight-regular mt-8" style="line-height: 1.4; opacity: 0.87;">
                 In simpler words: With a 50-person pod, you can do pretty meaningful things!
               </div>
             </v-card>
@@ -54,7 +54,7 @@
               :key="index"
               class="role-section mb-8"
             >
-              <h3 class="text-h5 mb-4">{{ role.title }}</h3>
+              <h3 class="text-h5 text-lg-h5 text-md-h6 mb-4">{{ role.title }}</h3>
               <p class="text-body-1 text-grey-darken-1">{{ role.description }}</p>
             </div>
           </v-col>
